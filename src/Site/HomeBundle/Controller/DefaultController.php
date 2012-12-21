@@ -22,4 +22,10 @@ class DefaultController extends Controller
 	{
 		return $this->render("SiteHomeBundle:Default:lacarte.html.twig");
 	}
+	
+	public function viewPageLaBricopubAction()
+	{
+		return $this->render("SiteHomeBundle:Default:labricopub.html.twig");
+	}
+	
 }

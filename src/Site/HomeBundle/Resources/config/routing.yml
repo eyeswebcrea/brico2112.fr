@@ -9,3 +9,8 @@ SiteHomeBundle_contact:
 SiteHomeBundle_lacarte:
     pattern: /la-carte
     defaults: { _controller:SiteHomeBundle:Default:viewPageLaCarte }
+    
+SiteHomeBundle_labricopub:
+    pattern: /la-bricopub
+    defaults: { _controller:SiteHomeBundle:Default:viewPageLaBricopub }
+    

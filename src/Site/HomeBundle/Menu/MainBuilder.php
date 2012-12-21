@@ -21,6 +21,12 @@ class MainBuilder extends ContainerAware
 			
 		$menu
 			->addChild('Contact', array( 'route' => 'SiteHomeBundle_contact'));
+			
+		$menu
+			->addChild('La Carte', array( 'route' =>'SiteHomeBundle_lacarte'));
+			
+		$menu
+			->addChild('La Bricopub', array( 'route' =>'SiteHomeBundle_labricopub'));
 
         return $menu;
     }
